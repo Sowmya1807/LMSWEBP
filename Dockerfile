@@ -1,4 +1,4 @@
 FROM tomcat:9.0
-COPY target/*.war /usr/local/tomcat/webapps/
-EXPOSE 8085
+COPY target/*.war /usr/local/tomcat/webapps/ROOT.war
+EXPOSE 8086
 CMD ["catalina.sh","run"]
