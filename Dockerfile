@@ -1,3 +1,3 @@
 FROM tomcat:9.0
 COPY target/LMSWEBP.war /usr/local/tomcat/webapps/LMSWEBP.war
-EXPOSE 8001
+EXPOSE 7000
